@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body >
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 sticky-top bg-black m-lg-auto" >
+        <a class="Heading"  class="navbar-brand" href="#">Japan</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Tourist Destinations</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/bg1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bg3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        
+        <div class="row">
+            <div class="col p-lg-5">
+                <div class="card mh-50">
+                    <h1  class="Heading">Tourist Destinations</h1>
+                    <img src="images/Kyoto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><h2>Kyoto City</h2></p>
+                      <div class="description_Quotes">"Cultural capital of Japan"</div>
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read more-></button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <img src="images/Kyoto.jpg" class="d-block w-100" alt="...">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                            
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Kyoto, nestled in the Kansai region of Japan, is a city steeped in history, tradition, and
+                                captivating beauty. Often referred to as the "cultural capital of Japan," it served as the
+                                imperial seat for over a thousand years, leaving behind a rich legacy evident in its numerous
+                                temples, shrines, and palaces. Here's a closer look at what makes Kyoto a captivating tourist
+                                destination. Kyoto boasts a wealth of historical landmarks. Breathtaking temples like
+                                Kiyomizu-dera, perched on a hilltop overlooking the city, and Kinkaku-ji (Golden Pavilion),
+                                shimmering on a tranquil pond, are testaments to Japan's architectural prowess. The serene
+                                Arashiyama Bamboo Grove offers a glimpse into the natural beauty that coexists with the city's
+                                historical sites.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+      </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<style>
+    .Heading{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            size: 20px;
+            font-size: 30px;
+    }
+
+    .quote{
+            position: relative;
+            top: 100px;
+            font-family: "PT Mono", monospace;
+            color: rgb(139, 0, 255);
+            font-size: xx-large; 
+        }
+</style>
+</html>
